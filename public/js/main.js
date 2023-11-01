@@ -62,10 +62,10 @@ $(function () {
             return false;
         });
 
-        $(".portfolio-items").isotope({
+        /*$(".portfolio-items").isotope({
             itemSelector: '.single-item',
             layoutMode: 'masonry',
-        });
+        });*/
     });
 
     /*=========================================================================

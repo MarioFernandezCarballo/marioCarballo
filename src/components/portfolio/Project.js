@@ -14,7 +14,7 @@ function Project(props) {
                 <img src={img} alt="img"/>
                 <div className="portfolio-content">
                     <h3>
-                        <a className="img-popup" href={img}>{name}<span>{desc}</span></a>
+                        <a className="img-popup" href={img}>{name}<span>{desc}</span>{"\n"}<span style={{marginTop: '10%'}}>{field}</span></a>
                     </h3>
                 </div>
             </div>

@@ -5,22 +5,22 @@ function Services() {
     const serviceList = [
         {
             name: 'Fullstack',
-            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, facilis.',
+            desc: 'El pack completo. Solo explícame tu idea.',
             icon: 'icon-laptop'
         },
         {
             name: 'Backend',
-            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, facilis.',
+            desc: 'Computación optimizada, soluciones rápidas y escalables.',
             icon: 'icon-pencil'
         },
         {
             name: 'Frontend',
-            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, facilis.',
+            desc: 'Páginas responsivas e increíble experiencia de usuario.',
             icon: 'icon-camera'
         },
         {
             name: 'Soporte 24/7',
-            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, facilis.',
+            desc: 'Cuando lo necesites, lo que necesites.',
             icon: 'icon-chat'
         }
     ]
@@ -32,7 +32,7 @@ function Services() {
             <div className="container">
                 <div className="section-heading mb-40 text-center wow fadeInUp" data-wow-delay="200ms"
                     data-wow-duration="1000ms">
-                    <h2>Exceptional Services</h2>
+                    <h2>Servicios</h2>
                 </div>
                 <div className="row g-4">
                     {services}
