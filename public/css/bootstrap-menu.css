@@ -257,6 +257,8 @@
 
 .benja-side-content>.logo img {
     max-width: inherit;
+
+    max-height: 30px;
     width: auto;
 }
 

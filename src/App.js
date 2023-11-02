@@ -8,7 +8,7 @@ import Resume from './components/resume/Resume.js';
 import Services from "./components/services/Services.js";
 import Portfolio from "./components/portfolio/Portfolio.js";
 import Testimonial from "./components/testimonial/Testimonial.js";
-import Cta from "./components/cta/Cta.js";
+//import Cta from "./components/cta/Cta.js";
 import Contact from "./components/contact/Contact.js";
 import Footer from "./components/footer/Footer.js";
 
@@ -34,7 +34,7 @@ function App() {
             <Services/>
             <Portfolio/>
             <Testimonial/>
-            <Cta/>
+            {/*<Cta/>*/}
             <Contact/>
             <Footer/>
         </div>

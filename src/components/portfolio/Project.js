@@ -6,7 +6,7 @@ function Project(props) {
     let img = props.img
     let name = props.name
     let desc = props.desc
-    let project_class = "col-md-4 col-sm-6 padding-10 single-item design" + " " + field
+    let project_class = `col-md-4 col-sm-6 padding-10 single-item design ${field}`
 
     return (
         <div className={project_class}>

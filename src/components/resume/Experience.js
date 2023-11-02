@@ -24,7 +24,7 @@ function Experience() {
         <Job dates={job.dates} name={job.name} desc={job.desc} />       
     )
     return (
-        <div className="col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
+        <div className="col-md-6 wow fadeInLeft mario-experience" data-wow-delay="200ms" data-wow-duration="1000ms">
             <div className="section-heading mb-40">
                 <h2>Experiencia</h2>
             </div>

@@ -19,6 +19,16 @@ function Services() {
             icon: 'icon-camera'
         },
         {
+            name: 'Tratamiento de datos',
+            desc: 'La información como más te guste.',
+            icon: 'icon-bargraph'
+        },
+        {
+            name: 'Troubleshoot',
+            desc: 'Cazando los problemas.',
+            icon: 'icon-scope'
+        },
+        {
             name: 'Soporte 24/7',
             desc: 'Cuando lo necesites, lo que necesites.',
             icon: 'icon-chat'

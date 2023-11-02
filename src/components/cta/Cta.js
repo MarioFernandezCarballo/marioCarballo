@@ -11,7 +11,7 @@ function Cta() {
                         </div>
                     </div>
                     <div className="col-md-4 text-md-end">
-                        <a href="#" className="default-btn">Hire Me Now!</a>
+                        <a href="https://mariocarballo.es" className="default-btn">Hire Me Now!</a>
                     </div>
                 </div>
             </div>

@@ -13,8 +13,7 @@ function About() {
                             fácil de usar y visualmente atractivo, estoy aquí para ayudarte a alcanzar tus objetivos. Trabajemos 
                             juntos para convertir tus ideas en realidad.</p>
                         <ul className="profile-info">
-                            <li><span>Nombre</span> Benjamin Morgan</li>
-                            <li><span>Nacimiento</span> 03-03-1990</li>
+                            <li><span>Nombre</span> Mario Fernández</li>
                             <li><span>Email</span> mariofernandezcarballo@gmail.com</li>
                             <li><span>Website</span> mariocarballo.es</li>
                         </ul>
