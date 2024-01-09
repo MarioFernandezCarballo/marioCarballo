@@ -9,7 +9,7 @@ function Project(props) {
     let project_class = `col-md-4 col-sm-6 padding-10 single-item design ${field}`
 
     return (
-        <div className={project_class}>
+        <div className={project_class} onClick={() => window.open(desc, '_blank')}>
             <div className="portfolio-box">
                 <img src={img} alt="img"/>
                 <div className="portfolio-content">

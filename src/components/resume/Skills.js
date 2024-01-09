@@ -24,8 +24,8 @@ function Skills() {
             percentage: '53'
         },
         {
-            name: 'Flutter',
-            percentage: '62'
+            name: 'NextJS',
+            percentage: '70'
         },
     ]
 
