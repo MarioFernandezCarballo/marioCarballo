@@ -23,14 +23,8 @@ function HeroSection() {
                         />
                     </span>
                 </h2>
+
             </div>
-            <ul className="hero-social">
-                <li><a href="https://www.linkedin.com/in/mario-fern%C3%A1ndez-rodr%C3%ADguez-843b3a91/"><i className="ti-linkedin"></i></a></li>
-                <li><a href="#"><i className="ti-twitter"></i></a></li>
-                <li><a href="#"><i className="ti-instagram"></i></a></li>
-                <li><a href="#"><i className="ti-linkedin"></i></a></li>
-                <li><a href="#"><i className="ti-youtube"></i></a></li>
-            </ul>
         </div>
     </header>
   );

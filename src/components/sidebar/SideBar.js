@@ -64,7 +64,7 @@ const SideBar = () => {
                             <li><a onClick={scrollToSection} href="#services" data-scroll-nav="3">Servicios</a></li>
                             <li><a onClick={scrollToSection} href="#portfolio" data-scroll-nav="4">Portfolio</a></li>
                             <li><a onClick={scrollToSection} href="#reviews" data-scroll-nav="5">Reseñas</a></li>
-                            <li><a onClick={scrollToSection} href="#contact" data-scroll-nav="6">Contacto</a></li>
+                            {/*<li><a onClick={scrollToSection} href="#contact" data-scroll-nav="6">Contacto</a></li>*/}
                         </ul>
                     </nav>
                 </div>

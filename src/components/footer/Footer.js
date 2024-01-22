@@ -7,11 +7,7 @@ function Footer() {
                 <div className="footer-top py-5">
                     <img src="img/logo-1.png" style={{height: "auto"}} alt="logo"/>
                     <div className="footer-social">
-                        <a href="#"><i className="ti-facebook"></i></a>
-                        <a href="#"><i className="ti-twitter"></i></a>
-                        <a href="#"><i className="ti-instagram"></i></a>
-                        <a href="#"><i className="ti-linkedin"></i></a>
-                        <a href="#"><i className="ti-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/mario-fern%C3%A1ndez-rodr%C3%ADguez-843b3a91/"><i className="ti-linkedin"></i></a>
                     </div>
                 </div>
 

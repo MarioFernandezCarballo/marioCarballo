@@ -32,20 +32,20 @@ function Testimonial() {
 
     const testimonyList = [
         {
-            client: 'Alejo Martín ',
-            site: 'rankinglatamkt.com',
+            client: 'Alejo Martín',
+            site: 'Organizador de rankinglatamkt.com',
             review: 'Fue muy sencillo transmitir mis ideas y aún más que Mario las llevase a cabo. Destacar lo antento y profesional que siempre fue durante el tiempo que sacamos adelante la página web, pero también durante todos estos meses después: siempre disponible para atender la web, ampliarla y mejorarla. Sin duda lo recomiendo para proyectos de todo tipo.',
             img: 'img/client/rlkt.png'
         },
         {
-            client: 'Rudy Pertu ',
-            site: 'liga.ibericon.com',
+            client: 'Rudy Pertu',
+            site: 'Presidente de Ibericon',
             review: 'La primera pagina fue magnifica, con un acabado perfecto. Esta segunda vez, al tener que ampliar la pagina no dudamos en contar con él gracias a su excelente trabajo y calidad profesional. Es un profesional excelente siempre dispuesto a buscar ideas para mejorar tu pagina web.',
             img: 'img/client/ibericon.png'
         },
     ]
     const testimonial = testimonyList.map(testimony =>
-        <Testimony client={testimony.name} site={testimony.site} review={testimony.review} img={testimony.img}/>
+        <Testimony client={testimony.client} site={testimony.site} review={testimony.review} img={testimony.img}/>
     )
 
     return (

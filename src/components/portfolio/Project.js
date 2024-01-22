@@ -6,6 +6,7 @@ function Project(props) {
     let img = props.img
     let name = props.name
     let desc = props.desc
+    let desc1 = props.desc1
     let project_class = `col-md-4 col-sm-6 padding-10 single-item design ${field}`
 
     return (
@@ -14,7 +15,15 @@ function Project(props) {
                 <img src={img} alt="img"/>
                 <div className="portfolio-content">
                     <h3>
-                        <a className="img-popup" href={img}>{name}<span>{desc}</span>{"\n"}<span style={{marginTop: '10%'}}>{field}</span></a>
+                        <a className="img-popup" href={img}>
+                            {name}
+                            <span>{desc}</span>
+                            {"\n"}
+                            <span style={{marginTop: '5%'}}>{desc1}</span>
+                            {"\n"}
+                            <span style={{marginTop: '10%'}}>{field}</span>
+
+                        </a>
                     </h3>
                 </div>
             </div>
